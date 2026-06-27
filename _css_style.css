@@ -1,0 +1,111 @@
+/* Global Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family:'Montserrat',sans-serif;
+  background:#0d0d0d;
+  color:#fff;
+  line-height:1.6;
+}
+
+/* Header */
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:#1a1a1a;
+}
+header .logo img { height:60px; }
+nav ul { list-style:none; display:flex; gap:20px; }
+nav a { color:#fff; text-decoration:none; font-weight:600; }
+nav a:hover { color:#e50914; }
+.auth-buttons .btn {
+  margin-left:10px;
+  padding:8px 15px;
+  border-radius:4px;
+  background:#333;
+  color:#fff;
+  text-decoration:none;
+}
+.auth-buttons .btn.red { background:#e50914; }
+
+/* Hero */
+.hero { position:relative; }
+.hero img { width:100%; height:auto; display:block; }
+.hero-text {
+  position:absolute;
+  top:40%;
+  left:10%;
+  color:#fff;
+}
+.hero-text h1 { font-size:2.5em; color:#e50914; }
+
+/* Buttons */
+.btn {
+  background:#e50914;
+  color:#fff;
+  padding:10px 20px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+}
+.btn:hover { background:#b00710; }
+
+/* Search Filters */
+.search {
+  background:#1a1a1a;
+  padding:20px;
+  text-align:center;
+}
+.search select, .search button {
+  margin:5px;
+  padding:10px;
+  border-radius:4px;
+  border:none;
+}
+
+/* Sections */
+h2 { color:#e50914; text-align:center; margin:30px 0; }
+.categories, .featured, .section { padding:40px; text-align:center; }
+
+/* Grid Layout */
+.grid {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+.card {
+  background:#1a1a1a;
+  padding:20px;
+  border-radius:8px;
+  width:220px;
+  text-align:center;
+}
+.card img { width:100%; border-radius:6px; }
+.card p { margin-top:10px; font-weight:600; }
+
+/* Forms */
+.form-box {
+  max-width:500px;
+  margin:80px auto;
+  background:#1a1a1a;
+  padding:30px;
+  border-radius:8px;
+}
+.form-box input, .form-box select, .form-box textarea {
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:none;
+  border-radius:4px;
+}
+.form-box textarea { resize:none; }
+
+/* Footer */
+footer {
+  background:#1a1a1a;
+  padding:20px;
+  text-align:center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sell Your Car - Impero Kobo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { margin:0; font-family:'Montserrat',sans-serif; background:#0d0d0d; color:#fff; }
+    .form-box { max-width:500px; margin:80px auto; background:#1a1a1a; padding:30px; border-radius:8px; }
+    h2 { color:#e50914; text-align:center; }
+    input, select { width:100%; padding:10px; margin:10px 0; border:none; border-radius:4px; }
+    textarea { width:100%; padding:10px; margin:10px 0; border:none; border-radius:4px; resize:none; }
+    .btn { background:#e50914; color:#fff; padding:12px; border:none; width:100%; cursor:pointer; border-radius:4px; }
+    .btn:hover { background:#b00710; }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Sell Your Vehicle</h2>
+    <form>
+      <input type="text" placeholder="Brand" required>
+      <input type="text" placeholder="Model" required>
+      <input type="number" placeholder="Price (₹)" required>
+      <input type="number" placeholder="Year" required>
+      <select required>
+        <option value="">Fuel Type</option>
+        <option value="Petrol">Petrol</option>
+        <option value="Diesel">Diesel</option>
+        <option value="Electric">Electric</option>
+        <option value="Hybrid">Hybrid</option>
+      </select>
+      <input type="text" placeholder="Location" required>
+      <textarea rows="4" placeholder="Additional Details"></textarea>
+      <input type="file" required>
+      <button class="btn">Upload Vehicle</button>
+    </form>
+  </div>
+</body>
+</html>

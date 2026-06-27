@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance & Insurance - Impero Kobo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { margin:0; font-family:'Montserrat',sans-serif; background:#0d0d0d; color:#fff; }
+    h2 { color:#e50914; text-align:center; margin:30px 0; }
+    .section { max-width:800px; margin:40px auto; background:#1a1a1a; padding:30px; border-radius:8px; }
+    .section h3 { color:#e50914; margin-bottom:15px; }
+    .emi-calc { text-align:center; margin-top:20px; }
+    input { padding:10px; margin:5px; border:none; border-radius:4px; width:200px; }
+    .btn { background:#e50914; color:#fff; padding:10px 20px; border:none; border-radius:4px; cursor:pointer; }
+    .btn:hover { background:#b00710; }
+    .partners { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:30px; }
+    .partner-card { background:#2a2a2a; padding:20px; border-radius:6px; width:180px; text-align:center; }
+  </style>
+</head>
+<body>
+  <h2>Finance & Insurance Options</h2>
+
+  <!-- Finance Section -->
+  <div class="section">
+    <h3>Easy Financing</h3>
+    <p>Get flexible EMI plans and instant loan approvals from our trusted finance partners.</p>
+    <div class="emi-calc">
+      <input type="number" placeholder="Loan Amount (₹)">
+      <input type="number" placeholder="Interest Rate (%)">
+      <input type="number" placeholder="Tenure (Months)">
+      <button class="btn">Calculate EMI</button>
+    </div>
+  </div>
+
+  <!-- Insurance Section -->
+  <div class="section">
+    <h3>Insurance Coverage</h3>
+    <p>Protect your vehicle with comprehensive insurance plans covering accidents, theft, and damage.</p>
+  </div>
+
+  <!-- Partners -->
+  <div class="section">
+    <h3>Our Finance Partners</h3>
+    <div class="partners">
+      <div class="partner-card">HDFC Bank</div>
+      <div class="partner-card">ICICI Bank</div>
+      <div class="partner-card">Axis Bank</div>
+      <div class="partner-card">SBI Auto Loans</div>
+      <div class="partner-card">Bajaj Finance</div>
+    </div>
+  </div>
+</body>
+</html>

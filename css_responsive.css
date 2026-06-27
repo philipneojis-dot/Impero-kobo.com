@@ -1,0 +1,50 @@
+/* Responsive adjustments */
+
+/* Small screens (phones) */
+@media (max-width: 768px) {
+  header {
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  nav ul {
+    flex-direction:column;
+    gap:10px;
+    margin-top:10px;
+  }
+  .auth-buttons {
+    margin-top:10px;
+  }
+  .hero-text {
+    position:static;
+    padding:20px;
+    text-align:center;
+  }
+  .hero-text h1 {
+    font-size:1.8em;
+  }
+  .grid {
+    flex-direction:column;
+    align-items:center;
+  }
+  .card {
+    width:90%;
+  }
+  .form-box {
+    width:90%;
+    margin:40px auto;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav ul {
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .grid {
+    justify-content:center;
+  }
+  .card {
+    width:45%;
+  }
+}

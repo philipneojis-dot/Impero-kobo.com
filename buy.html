@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy Cars - Impero Kobo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { margin:0; font-family:'Montserrat',sans-serif; background:#0d0d0d; color:#fff; }
+    h2 { color:#e50914; text-align:center; margin:30px 0; }
+    .filters { background:#1a1a1a; padding:20px; text-align:center; }
+    .filters select, .filters button { margin:5px; padding:10px; border-radius:4px; border:none; }
+    .filters button { background:#e50914; color:#fff; cursor:pointer; }
+    .grid { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; padding:30px; }
+    .card { background:#1a1a1a; padding:20px; border-radius:8px; width:250px; text-align:center; }
+    .card img { width:100%; border-radius:6px; }
+    .btn { background:#e50914; color:#fff; padding:8px 12px; border:none; border-radius:4px; cursor:pointer; margin-top:10px; }
+    .btn:hover { background:#b00710; }
+  </style>
+</head>
+<body>
+  <h2>Browse Vehicles</h2>
+
+  <!-- Filters -->
+  <div class="filters">
+    <form>
+      <select><option>Vehicle Type</option></select>
+      <select><option>Brand</option></select>
+      <select><option>Model</option></select>
+      <select><option>Price Range</option></select>
+      <select><option>Year</option></select>
+      <select><option>Fuel Type</option></select>
+      <select><option>Location</option></select>
+      <button>Search</button>
+    </form>
+  </div>
+
+  <!-- Listings -->
+  <div class="grid">
+    <div class="card">
+      <img src="images/car1.jpeg" alt="Mercedes-Benz S-Class">
+      <h3>Mercedes-Benz S-Class</h3>
+      <p>₹1,29,90,000 • 2022 • 18,000 km • Petrol • Automatic • Delhi</p>
+      <button class="btn">View Details</button>
+    </div>
+    <div class="card">
+      <img src="images/car2.jpeg" alt="BMW X5">
+      <h3>BMW X5 xDrive30d</h3>
+      <p>₹95,50,000 • 2021 • 22,000 km • Diesel • Automatic • Mumbai</p>
+      <button class="btn">View Details</button>
+    </div>
+    <div class="card">
+      <img src="images/car3.jpeg" alt="Audi Q7">
+      <h3>Audi Q7 45 TDI</h3>
+      <p>₹79,50,000 • 2020 • 31,000 km • Diesel • Automatic • Bangalore</p>
+      <button class="btn">View Details</button>
+    </div>
+    <div class="card">
+      <img src="images/car4.jpeg" alt="Porsche 911">
+      <h3>Porsche 911 Carrera</h3>
+      <p>₹1,86,90,000 • 2022 • 9,500 km • Petrol • Automatic • Pune</p>
+      <button class="btn">View Details</button>
+    </div>
+    <div class="card">
+      <img src="images/car5.jpeg" alt="Toyota Fortuner">
+      <h3>Toyota Fortuner 4x4</h3>
+      <p>₹38,90,000 • 2021 • 20,000 km • Diesel • Automatic • Hyderabad</p>
+      <button class="btn">View Details</button>
+    </div>
+    <div class="card">
+      <img src="images/car6.jpeg" alt="Harley-Davidson Fat Boy">
+      <h3>Harley-Davidson Fat Boy</h3>
+      <p>₹18,50,000 • 2019 • 6,000 km • Petrol • Manual • Delhi</p>
+      <button class="btn">View Details</button>
+    </div>
+  </div>
+</body>
+</html>
